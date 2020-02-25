@@ -3,7 +3,7 @@
  * Uma variável 'var', quando não declarada dentro de função
  * ela é global.
  * Diz que variavel definida com 'var' tem escopo global e escopo de função
- * Usando o brower, toda variável global é adicionada por padrão
+ * Usando o browser, toda variável global é adicionada por padrão
  * ao objeto window. Fazendo 'window.variavel' conseguimos acessa-la 
  * no console
  */

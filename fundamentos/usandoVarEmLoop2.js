@@ -7,5 +7,5 @@ for(var i = 0; i < 10; i++){
 }
 
 //problema histórico do JS
-funcs[2]() //imprime 10
+funcs[1]() //imprime 10
 funcs[8]() //imprime 10
