@@ -16,6 +16,14 @@ const pessoa = {
     peso: 64
 }
 
+/**
+ * Obtendo os valores de cada atributo do objeto
+ * pessoa. 
+ * Os atributos de um objeto podem ser acessados 
+ * de forma análoga a um array. 
+ * A diferença é que
+ * passamos entre [] o nome do atributo.
+ */
 for(let atributo in pessoa){
     console.log(`${atributo} = ${pessoa[atributo]}`)
 }

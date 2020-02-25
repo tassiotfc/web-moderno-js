@@ -1,3 +1,8 @@
+/**
+ * Adicionando uma nova função ao objeto Number.
+ * Com isso, todo número pode invocar essa função entre().
+ * O this refere-se ao número que invoca entre().
+ */
 Number.prototype.entre = function(inicio, fim){
     return this >= inicio && this <= fim
 }
