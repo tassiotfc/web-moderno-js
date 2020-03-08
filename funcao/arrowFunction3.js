@@ -12,11 +12,10 @@ const obj = {}
 comparaComThis = comparaComThis.bind(obj) //mudando o this para o contexto do objeto
 comparaComThis(global)
 comparaComThis(obj)
-
 /**
  * O this numa função arrow é um this
  * associado ao contexto no qual ela foi
- * escrita.
+ * escrita. Nesse caso, é o arquivo arrowFunction3.js
  * Mesmo usando o bind não há como mudar
  * esse contexto.
  */
