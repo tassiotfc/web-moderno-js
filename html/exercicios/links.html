@@ -1,0 +1,45 @@
+<h1>Links</h1>
+
+<!--URL Absoluta-->
+<!--Abrindo link na mesma aba-->
+<a id="inicio" href="https://www.google.com.br">Google 1</a><br />
+<!--Abrindo link em uma nova aba-->
+<a href="https://www.google.com.br" target="_blanck">Google 2</a><br /><br />
+
+<!--URL Relativa-->
+<!--
+    Acrescenta o "index.html à ultima pasta do link atual"
+    Link atual: www.sistema.com/raiz/subpasta1/subpasta2/arquivo1.html
+    Novo link após o clique em "Voltar 1": www.sistema.com/raiz/subpasta/index.html
+-->
+<a href="index.html">Voltar 1</a></br> 
+<!--
+    Acrescenta o "index.html à pasta raiz"
+    Link atual: www.sistema.com/raiz/subpasta1/subpasta2/arquivo1.html
+    Novo link após o clique em "Voltar 1": www.sistema.com/raiz/index.html
+-->
+<a href="/index.html">Voltar 2</a></br>
+<!--
+    Acrescenta o "index.html à pasta imediatamente anterior a atual"
+    Link atual: www.sistema.com/raiz/subpasta1/subpasta2/arquivo1.html
+    Novo link após o clique em "Voltar 1": www.sistema.com/raiz/subpasta1/index.html
+-->
+<a href="../index.html">Voltar 3</a></br></br>
+
+<a href="mailto:tassiokp206@gmail.com">Entre em contato</a></br></br>
+
+<!--
+    Atalhos pra criar tags:
+        <nome da tag>.<nome da classe>
+            Exemplo: span.teste => <span class="teste"></span>
+        <nome da tag>#<nome do id>
+            exemplo: div#noticia => <div id="noticia"></div>
+-->
+
+<div id="noticia" style="position:absolute;top:2000px;">
+    <h1>Notícia Bomba!</h1>
+    <p>Não era nada...</p>
+    <a href="#inicio">Voltar</a>
+</div>
+
+<a href="#noticia">Ir para noticia</a>

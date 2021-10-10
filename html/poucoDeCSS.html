@@ -1,41 +1,41 @@
 <html>
-    <head>
-        <title>Um Pouco de CSS</title>
-        <link rel="stylesheet" href="poucoDeCSS.css"> <!--Referenciando estilo de arquivo .css-->
-        
-        <!--Definindo estilos no próprio arquivo .html-->
-        <style>
-            h1 {
-                font-size: 20px;   
-            }
+  <head>
+    <title>Um Pouco de CSS</title>
+    <link rel="stylesheet" href="poucoDeCSS.css" />
+    <!--Referenciando estilo de arquivo .css-->
 
-            .fundoVermelho {
-                background-color: red;                
-            }
+    <!--Definindo estilos no próprio arquivo .html-->
+    <style>
+      h1 {
+        font-size: 20px;
+      }
 
-            .negrito {
-                font-weight: bold;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>CSS</h1>
-        <span id="textoPrincipal">Texto 1</span><br><br><br>
-        <span class="fundoVermelho negrito">Texto 2</span><br>
-        <span class="fundoVermelho">Texto 3</span>
-    </body>
+      .fundoVermelho {
+        background-color: red;
+      }
+
+      .negrito {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS</h1>
+    <span id="textoPrincipal">Texto 1</span><br /><br /><br />
+    <span class="fundoVermelho negrito">Texto 2</span><br />
+    <span class="fundoVermelho">Texto 3</span><br />
+    <span style="background-color: blue; font-size: large;">Texto 3</span>
+  </body>
 </html>
-
-
 
 <!-- 
     Podemos associar estilo com:
         * tags
         * id
         * class
-    Existem três formas de associas estilo com esses elementos:
+    Existem três formas de associar estilo com esses elementos:
         * usando a tag <style> dentro do <head>
-        * usando a propriade style dentro da tag na qual deseja-se estilizar
+        * usando a propriedade style dentro da tag na qual deseja-se estilizar
         * definindo um arquivo .css de estilo e evocando no <head> do .html no qual
           queremos estilizar 
         Em todos os casos, um estilo é definido seguindo o padrão: propriedade: valor;

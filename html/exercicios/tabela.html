@@ -1,0 +1,67 @@
+<!-- border = 1 => adicionando borda na tabela -->
+<table>
+  <!-- Título da Tabela -->
+  <caption>
+    Produtos
+  </caption>
+  <thead>
+    <!-- tr = table row -->
+    <tr>
+      <!-- th = table head -->
+      <th>Produto</th>
+      <th>Preço</th>
+      <th>Quantidade</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <!-- td = table data -->
+      <td>iPad</td>
+      <td>3289,00</td>
+      <td>5</td>
+      <td>16445,00</td>
+    </tr>
+    <tr>
+      <td>Samsung S9</td>
+      <td>2649,00,00</td>
+      <td>8</td>
+      <td>21192,00</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <!-- colspan => determina quantas colunas ocupar | rowspan => determina quantas linhas ocupar -->
+      <td colspan="3" rowspan="2">Total</td>
+      <td>37637,00</td>
+    </tr>
+    <tr>
+      <td>37000,00</td>
+    </tr>
+  </tfoot>
+</table>
+
+<style>
+  table {
+    /* Elimina bordas da tabela */
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    /* padding ou preenchimento => produz um espacamento no elemento no qual é aplicado */
+    padding: 10px;
+  }
+  /* aplicar efeito no tr do thead */
+  thead tr {
+    border-bottom: solid 3px #444;
+  }
+  /* aplicar efeito no tr do tbody quando o mouse passar por cima dele (hover = flutuar) */
+  tbody tr:hover {
+    background-color: #dedede;
+  }
+  tfoot {
+    background-color: #444;
+    color: #fff; /*cor da fonte*/
+    font-weight: bold;
+  }
+</style>
